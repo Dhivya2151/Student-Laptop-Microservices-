@@ -48,14 +48,19 @@ Each service runs independently and communicates via REST using Feign Clients.
 👨‍🎓 Student:-
 
 POST /student/add – Add new student
+
 GET /student/{id} – Get student by ID
+
 GET /student/{id}/laptops – Get  laptops for a student (via Feign)
+
 DELETE /student/{id} – Delete student
 
 💻 Laptop:-
 
 POST /laptop/add – Add new laptop
+
 GET /laptop/student/{studentId} – Get  laptops for a student
+
 DELETE /laptop/{id} – Delete laptop
 
 🖼️ ER Diagram 
